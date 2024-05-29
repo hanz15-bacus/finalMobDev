@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "860835866198",
+    "project_id": "car-rental-firebase",
+    "storage_bucket": "car-rental-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860835866198:android:9a63da065f8d228255bdf7",
+        "android_client_info": {
+          "package_name": "com.example.carrental_homepage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiz6EZ_CR-jXYCH4QLRoC6uMSQAdEFghg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860835866198:android:c39c8e7d31140c8c55bdf7",
+        "android_client_info": {
+          "package_name": "com.example.finalmobdev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiz6EZ_CR-jXYCH4QLRoC6uMSQAdEFghg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

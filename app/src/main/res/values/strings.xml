@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">finalMobDev</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="click_to_sign_up">Click to Sign Up</string>
+    <string name="login_form">Login Form</string>
+    <string name="email">Email</string>
+    <string name="full_name">Full Name</string>
+    <string name="subdivision">Subdivision</string>
+    <string name="block">Block</string>
+    <string name="lot">Lot</string>
+    <string name="click_to_log_in">Click to Log in</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_up_form">Sign Up Form</string>
+</resources>
