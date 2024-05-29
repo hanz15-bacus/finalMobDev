@@ -40,7 +40,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 FirebaseAuth.getInstance().signOut();
+                // Redirect to login page
+                Intent loginIntent = new Intent(MainActivity.this, login.class);
+                startActivity(loginIntent);
+                finish();
             }
         });
+
     }
 }
