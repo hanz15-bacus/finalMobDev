@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     FirebaseAuth auth;
     Button logoutbtn;
+    Button editProfileBtn; // Added button to access EditProfileActivity
     TextView userDetails;
     FirebaseUser user;
 
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         auth = FirebaseAuth.getInstance();
         logoutbtn = findViewById(R.id.main_logoutbtn);
+        editProfileBtn = findViewById(R.id.main_edit_profile_btn); // Initialize the edit profile button
         userDetails = findViewById(R.id.main_txt);
         user = auth.getCurrentUser();
 
@@ -47,5 +49,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        editProfileBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navigate to EditProfileActivity
+                Intent editProfileIntent = new Intent(MainActivity.this, EditProfileActivity.class);
+                startActivity(editProfileIntent);
+            }
+        });
     }
 }

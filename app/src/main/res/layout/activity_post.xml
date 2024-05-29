@@ -42,4 +42,5 @@
         android:layout_below="@id/post_button"
         android:layout_marginTop="16dp" />
 
+
 </RelativeLayout>

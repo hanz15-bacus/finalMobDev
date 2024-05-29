@@ -26,5 +26,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="logout" />
+
+        <Button
+            android:id="@+id/main_edit_profile_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
